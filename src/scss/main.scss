@@ -1,0 +1,12 @@
+//Variables
+@import "variables/colors";
+//Mixins
+@import "mixins/reset";
+//Components
+@import "components/card";
+//Pages
+@import "pages/index";
+
+* {
+	box-sizing: border-box;
+}

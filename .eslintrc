@@ -1,0 +1,55 @@
+{
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "rules": {
+        "semi": [
+            2,
+            "never"
+        ],
+        "react/jsx-no-bind": [
+            2,
+            {
+                "ignoreRefs": true,
+                "allowArrowFunctions": false
+            }
+        ],
+        "react/jsx-filename-extension": [
+            1, {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "import/no-extraneous-dependencies": [
+            "error", {
+                "devDependencies": true,
+                "optionalDependencies": true,
+                "peerDependencies": true
+            }
+        ],
+        "linebreak-style": [
+            "off"
+        ],
+        "max-len": [
+            2,
+            {
+                "code": 1000
+            }
+        ],
+        "eol-last": [
+            2, "never"
+        ]
+    },
+    "env": {
+        "browser": true
+    },
+    "settings": {},
+    "globals": {
+        "API_URI": true,
+        "ENVIRONMENT_TYPE": true,
+        "APPLICATION_VERSION": true,
+        "__SEQ_URI__": true,
+        "__SEQ_API_KEY__": true
+    }
+}
