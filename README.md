@@ -1,5 +1,7 @@
 # @Si1kIfY's Website Starter
 
+[![CircleCI](https://circleci.com/gh/Si1kIfY/website-starter.svg?style=shield)](https://circleci.com/gh/Si1kIfY/website-starter) [![scrutinizer](https://img.shields.io/scrutinizer/g/Si1kIfY/website-starter.svg)](https://scrutinizer-ci.com/g/Si1kIfY/website-starter/) [![Known Vulnerabilities](https://snyk.io/test/github/si1kify/website-starter/badge.svg)](https://snyk.io/test/github/si1kify/website-starter) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Si1kIfY/website-starter/master/LICENSE)  [![Twitter](https://img.shields.io/twitter/url/https/github.com/Si1kIfY/website-starter.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+
 *ES6 / SCSS / Live Reload / CI Based / S3 Deployment Web Starter*
 
 I got tired of running the same setup process over and over again so I thought I would put it in a repo and open source it.
@@ -14,7 +16,8 @@ This is meant as a starter for me, this is how I like to code my static sites fe
 
 ## Install
 
-1. `yarn install` to install dependencies
+1. `git clone https://github.com/Si1kIfY/website-starter <your.domain.name>`
+2. `yarn install` to install dependencies
 
 ## Build
 
